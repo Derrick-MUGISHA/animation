@@ -34,7 +34,7 @@ body::before {
     text-align: center;
     border: 1px solid #ffffff80;
     backdrop-filter: blur(8px);
-    background-color: rgba(192, 172, 172, 0.7); /* Semi-transparent white */
+    background-color: rgba(132, 160, 208, 0.7); /* Semi-transparent white */
     position: relative; /* Ensures it stays above the background */
     z-index: 1;
 }
@@ -110,6 +110,15 @@ h2{
     font-size: 16px;
     border: 2px solid transparent;
     transition: 0.3s ease;
+}
+
+.button a{
+    color: #000;
+    text-decoration: none;
+}
+.button:hover{
+    background: transparent;
+    border: 2px solid #fff;
 }
 .register{
    text-align: center; 
